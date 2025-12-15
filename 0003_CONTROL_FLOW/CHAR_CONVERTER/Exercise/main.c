@@ -11,40 +11,40 @@ int main()
     // is numeric
     if (character > 47 && character < 58)
     {
-        printf("%c is nummeric", character);
+        printf("\n%c is nummeric", character);
     }
     // is upper case
     if (character > 64 && character < 91)
     {
-        printf("%c is uppercase", character);
+        printf("\n%c is lowercase", character);
     }
-    
+
     // is lower case
     if (character > 96 && character < 123)
         {
-            printf("%c is uppercase", character);
+            printf("\n%c is uppercase", character);
         }
     // is alpha
     if ((character > 64 && character < 91) || (character > 96 && character < 123) || (character > 47 && character < 58))
         {
-            printf("%c is alphabetical", character);
+            printf("\n%c is alphabetical", character);
         }
     // is alpha numeric
     if ((character > 64 && character < 91) || (character > 96 && character < 123))
         {
-            printf("%c is alphanumerical", character);
+            printf("\n%c is alphanumerical", character);
         }
     // to upper case
     if (character > 96 && character < 123)
         {
             character -= 32;
-            printf("%c now upper case", character);
+            printf("\n%c now uppercase", character);
         }
     // to lower case
-    if (character > 64 && character < 91)
+    else if (character > 64 && character < 91)
     {
         character += 32;
-        printf("%c now lower case", character);
+        printf("\n%c now lowercase", character);
     }
     return 0;
 }
