@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-    int x = -2;
-    int y = -3;
+    const int x = -2;
+    const int y = -3;
     int z1, z2, z3;
 
-    z1 = (x^2) + (y^2) - (x * y) + 2;
-    z2 = ((x - y)^3) - 3;
-    z3 = (2 * (x^3) - (1/2) * (x^2) - x + 4) / y;
+    z1 = (x*x) + (y*y) - (x * y) + 2;
+    z2 = ((x-y)*(x-y)*(x-y)) - 3;
+    z3 = (2 * (x*x*x) - (0.5) * (x*x) - x + 4) / y;
 
     printf("%d \n%d \n%d",z1,z2,z3);
 
