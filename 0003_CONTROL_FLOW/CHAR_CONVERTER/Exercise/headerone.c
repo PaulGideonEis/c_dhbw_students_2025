@@ -4,8 +4,8 @@
     bool Is_Numeric(char character){
     if (character > 47 && character < 58)
     {
-        print}f("\n%c is nummeric", character);
-    }
+        printf("\n%c is nummeric", character);
+    }}
     bool Is_Upper_Case(char character){
     if (character > 64 && character < 91)
     {
