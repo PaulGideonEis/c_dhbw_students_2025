@@ -16,13 +16,13 @@ int main()
     // is upper case
     if (character > 64 && character < 91)
     {
-        printf("\n%c is lowercase", character);
+        printf("\n%c is uppercase", character);
     }
 
     // is lower case
     if (character > 96 && character < 123)
         {
-            printf("\n%c is uppercase", character);
+            printf("\n%c is lowercase", character);
         }
     // is alpha
     if ((character > 64 && character < 91) || (character > 96 && character < 123) || (character > 47 && character < 58))
