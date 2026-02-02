@@ -20,7 +20,7 @@ int main()
 
     while (true)
     {
-        clear_console(); // not a standard function and not self defined
+        //clear_console(); // not a standard function and not self defined
 
         printScene(speedInMPS, laneIDX);
         getUserInput(&speedInMPS, &laneIDX);
